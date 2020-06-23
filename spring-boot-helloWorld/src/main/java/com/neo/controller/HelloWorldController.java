@@ -9,6 +9,7 @@ public class HelloWorldController {
     @RequestMapping("/hello")
     public String index() {
         System.out.println("===========");
+        System.out.println("===========");
         return "Hello World -------";
     }
 }
